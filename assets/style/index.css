@@ -1,0 +1,75 @@
+@import "./reset.css";
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: min(100%-30px, 1080);
+    margin-inline: auto;
+}
+
+body{
+    background-color: #CEE0DC;
+}
+
+h2{
+    margin-top: 70px;
+}
+
+.inputs{
+    width: 580px;
+    height: 60px;
+    background-color: #B9CFD4;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px
+}
+
+.button{
+    background-color: #A5243D;
+    width: 130px;
+}
+
+select{
+    background-color: #CEE0DC;
+    height: 40px;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.button, select{
+    height: 40px;
+    border-radius: 10px;
+}
+
+.grid{
+    width: 580px;
+    height: 470px;
+    margin-top: 20px;
+    background-color: #B9CFD4;
+    padding: 20px;
+    border-radius: 5px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px; 
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 10px; 
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+p{
+    margin-top: 30px;
+}
